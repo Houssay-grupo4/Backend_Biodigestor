@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "11M/dBeIo2AzWDTVmTgPmWYTNFaNf5altQ/KtIhX+c8y/4X2oKbDxgBp7/llkrATfzpoNn9sKrT5Kfc4x3Hd/A==",
+  "dgSpecHash": "M4G6eWcDc/KEwDC3lr885Y4Ze+lrFPIQDEnbE6+Uw0cwbu9BGaGef79Vw9dPUJdTCweV/lVn8FWAABCvlNTM5g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Lenovo\\OneDrive\\Escritorio\\Programacion\\TSDS - Dr. Houssay\\Segundo Año\\Práctica Profesionalizante\\Proyecto_Biodigestor_Backend\\Biodigestor\\Biodigestor.csproj",
+  "projectFilePath": "C:\\Users\\Lenovo\\OneDrive\\Escritorio\\Programacion\\TSDS - Dr. Houssay\\Segundo Año\\Práctica Profesionalizante\\Backend_Biodigestor\\Biodigestor\\Biodigestor.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lenovo\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

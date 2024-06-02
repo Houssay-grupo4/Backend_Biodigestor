@@ -15,18 +15,18 @@
 Cuando hayamos creado la clase que nos corresponderá a cada uno, debemos ingresar el siguiente comando en la mencionada consola por única vez: **add-migration Nombre de la entidad** (ej. Clientes)
 
 ## Integrantes del Equipo: 
--Paz Santangelo
+- Paz Santangelo
 
--Quimey Delgado 
+- Quimey Delgado 
 
--Roxana Mancuello  
+- Roxana Mancuello  
 
--Alejandro Santangelo 
+- Alejandro Santangelo 
 
--Chiara Seco 
+- Chiara Seco 
 
--Juan Larcher 
+- Juan Larcher 
 
--Nicolas Barrionuevo 
+- Nicolas Barrionuevo 
 
--Nancy Velazco. 
+- Nancy Velazco. 

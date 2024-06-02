@@ -16,10 +16,17 @@ Cuando hayamos creado la clase que nos corresponderá a cada uno, debemos ingres
 
 ## Integrantes: 
 -Paz Santangelo,
+
 -Quimey delgado, 
+
 -Mancuello Roxana, 
+
 -Alejandro Santangelo, 
+
 -Chiara Seco, 
+
 -Juan Larcher, 
+
 -Nicolas Barrionuevo, 
+
 -Nancy Velazco. 

@@ -7,11 +7,11 @@
       "RelativeMoniker": "D:0:0:{193F2680-45F3-40CB-87A4-150009017855}|Biodigestor\\Biodigestor.csproj|solutionrelative:biodigestor\\migrations\\pedido\\pedidocontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{193F2680-45F3-40CB-87A4-150009017855}|Biodigestor\\Biodigestor.csproj|d:\\users\\usuario\\desktop\\houssay segundo a\u00F1o\\narciso\\programacion\\ejercicios\\subidos a github\\backend_biodigestor - copia\\biodigestor\\migrations\\pedido\\20240602181139_nuevamigracionpedidos2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{193F2680-45F3-40CB-87A4-150009017855}|Biodigestor\\Biodigestor.csproj|D:\\Users\\Usuario\\Desktop\\HOUSSAY SEGUNDO A\u00D1O\\NARCISO\\PROGRAMACION\\EJERCICIOS\\SUBIDOS A GITHUB\\Backend_Biodigestor - copia\\biodigestor\\migrations\\pedido\\20240602181139_nuevamigracionpedidos2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{193F2680-45F3-40CB-87A4-150009017855}|Biodigestor\\Biodigestor.csproj|solutionrelative:biodigestor\\migrations\\pedido\\20240602181139_nuevamigracionpedidos2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{193F2680-45F3-40CB-87A4-150009017855}|Biodigestor\\Biodigestor.csproj|d:\\users\\usuario\\desktop\\houssay segundo a\u00F1o\\narciso\\programacion\\ejercicios\\subidos a github\\backend_biodigestor - copia\\biodigestor\\models\\pedidocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{193F2680-45F3-40CB-87A4-150009017855}|Biodigestor\\Biodigestor.csproj|D:\\Users\\Usuario\\Desktop\\HOUSSAY SEGUNDO A\u00D1O\\NARCISO\\PROGRAMACION\\EJERCICIOS\\SUBIDOS A GITHUB\\Backend_Biodigestor - copia\\biodigestor\\models\\pedidocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{193F2680-45F3-40CB-87A4-150009017855}|Biodigestor\\Biodigestor.csproj|solutionrelative:biodigestor\\models\\pedidocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -59,8 +59,7 @@
               "RelativeToolTip": "Biodigestor\\Migrations\\Pedido\\20240602181139_NuevaMigracionPedidos2.cs",
               "ViewState": "AQIAACgAAAAAAAAAAAAgwA0AAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-02T18:11:39.674Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-02T18:11:39.674Z"
             },
             {
               "$type": "Document",
@@ -72,8 +71,7 @@
               "RelativeToolTip": "Biodigestor\\Models\\PedidoContext.cs",
               "ViewState": "AQIAAA4AAAAAAAAAAAAwwBEAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-02T17:42:50.282Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-02T17:42:50.282Z"
             },
             {
               "$type": "Document",
@@ -85,8 +83,7 @@
               "RelativeToolTip": "Biodigestor\\Models\\Pedido.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAA5wAwAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-02T14:27:53.08Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-02T14:27:53.08Z"
             }
           ]
         }

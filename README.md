@@ -19,7 +19,7 @@ Cuando hayamos creado la clase que nos corresponderá a cada uno, debemos ingres
 
 -Quimey Delgado 
 
--Mancuello Roxana 
+-Roxana Mancuello  
 
 -Alejandro Santangelo 
 

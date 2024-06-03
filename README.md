@@ -13,7 +13,7 @@
 ## Integrantes del Equipo: 
 - Paz Santangelo
 
-- Quimey Delgado 
+- Quimey Delgado
 
 - Roxana Mancuello, 
 

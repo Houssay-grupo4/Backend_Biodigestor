@@ -15,7 +15,7 @@
 
 - Quimey Delgado 
 
-- Roxana Mancuello  
+- Roxana Mancuello, 
 
 - Alejandro Santangelo 
 

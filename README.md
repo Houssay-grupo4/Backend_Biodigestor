@@ -13,13 +13,13 @@
 ## Integrantes del Equipo: 
 - Paz Santangelo
 
-- Quimey Delgado 
+- Quimey Delgado
 
-- Roxana Mancuello  
+- Roxana Mancuello, 
 
 - Alejandro Santangelo 
 
-- Chiara Seco 
+- Chiara Seco.
 
 - Juan Larcher 
 

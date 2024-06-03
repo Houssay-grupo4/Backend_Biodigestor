@@ -19,7 +19,7 @@
 
 - Alejandro Santangelo 
 
-- Chiara Seco 
+- Chiara Seco.
 
 - Juan Larcher 
 

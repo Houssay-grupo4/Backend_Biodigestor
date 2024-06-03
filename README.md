@@ -1,4 +1,4 @@
-## Pasos para clonar proyecto y arrancarlo:
+## Pasos para clonar proyecto y arrancarlo :
 
 1. git clone url del repositorio
 2. En visual 2022:

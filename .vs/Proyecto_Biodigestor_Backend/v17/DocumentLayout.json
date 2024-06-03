@@ -1,18 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Lenovo\\OneDrive\\Escritorio\\Programacion\\TSDS - Dr. Houssay\\Segundo A\u00F1o\\Pr\u00E1ctica Profesionalizante\\Backend_Biodigestor\\",
+  "WorkspaceRootPath": "C:\\Users\\SecoC\\Desktop\\ProyectoBiodigestor.1\\Backend_Biodigestor\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{193F2680-45F3-40CB-87A4-150009017855}|Biodigestor\\Biodigestor.csproj|c:\\users\\lenovo\\onedrive\\escritorio\\programacion\\tsds - dr. houssay\\segundo a\u00F1o\\pr\u00E1ctica profesionalizante\\backend_biodigestor\\biodigestor\\controllers\\provisionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{193F2680-45F3-40CB-87A4-150009017855}|Biodigestor\\Biodigestor.csproj|c:\\users\\secoc\\desktop\\proyectobiodigestor.1\\backend_biodigestor\\biodigestor\\controllers\\compraventacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{193F2680-45F3-40CB-87A4-150009017855}|Biodigestor\\Biodigestor.csproj|solutionrelative:biodigestor\\controllers\\compraventacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{193F2680-45F3-40CB-87A4-150009017855}|Biodigestor\\Biodigestor.csproj|c:\\users\\secoc\\desktop\\proyectobiodigestor.1\\backend_biodigestor\\biodigestor\\controllers\\provisionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{193F2680-45F3-40CB-87A4-150009017855}|Biodigestor\\Biodigestor.csproj|solutionrelative:biodigestor\\controllers\\provisionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{193F2680-45F3-40CB-87A4-150009017855}|Biodigestor\\Biodigestor.csproj|c:\\users\\lenovo\\onedrive\\escritorio\\programacion\\tsds - dr. houssay\\segundo a\u00F1o\\pr\u00E1ctica profesionalizante\\backend_biodigestor\\biodigestor\\models\\provision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{193F2680-45F3-40CB-87A4-150009017855}|Biodigestor\\Biodigestor.csproj|solutionrelative:biodigestor\\models\\provision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{193F2680-45F3-40CB-87A4-150009017855}|Biodigestor\\Biodigestor.csproj|c:\\users\\secoc\\desktop\\proyectobiodigestor.1\\backend_biodigestor\\biodigestor\\models\\compraventacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{193F2680-45F3-40CB-87A4-150009017855}|Biodigestor\\Biodigestor.csproj|solutionrelative:biodigestor\\models\\compraventacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{193F2680-45F3-40CB-87A4-150009017855}|Biodigestor\\Biodigestor.csproj|c:\\users\\lenovo\\onedrive\\escritorio\\programacion\\tsds - dr. houssay\\segundo a\u00F1o\\pr\u00E1ctica profesionalizante\\backend_biodigestor\\biodigestor\\models\\provisionescontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{193F2680-45F3-40CB-87A4-150009017855}|Biodigestor\\Biodigestor.csproj|solutionrelative:biodigestor\\models\\provisionescontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{193F2680-45F3-40CB-87A4-150009017855}|Biodigestor\\Biodigestor.csproj|c:\\users\\secoc\\desktop\\proyectobiodigestor.1\\backend_biodigestor\\biodigestor\\models\\compraventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{193F2680-45F3-40CB-87A4-150009017855}|Biodigestor\\Biodigestor.csproj|solutionrelative:biodigestor\\models\\compraventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,49 +26,62 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Provision.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Escritorio\\Programacion\\TSDS - Dr. Houssay\\Segundo A\u00F1o\\Pr\u00E1ctica Profesionalizante\\Backend_Biodigestor\\Biodigestor\\Models\\Provision.cs",
-              "RelativeDocumentMoniker": "Biodigestor\\Models\\Provision.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Escritorio\\Programacion\\TSDS - Dr. Houssay\\Segundo A\u00F1o\\Pr\u00E1ctica Profesionalizante\\Backend_Biodigestor\\Biodigestor\\Models\\Provision.cs",
-              "RelativeToolTip": "Biodigestor\\Models\\Provision.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAIwBUAAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-01T21:22:53.855Z",
-              "EditorCaption": ""
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ProvisionesController.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Escritorio\\Programacion\\TSDS - Dr. Houssay\\Segundo A\u00F1o\\Pr\u00E1ctica Profesionalizante\\Backend_Biodigestor\\Biodigestor\\Controllers\\ProvisionesController.cs",
-              "RelativeDocumentMoniker": "Biodigestor\\Controllers\\ProvisionesController.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Escritorio\\Programacion\\TSDS - Dr. Houssay\\Segundo A\u00F1o\\Pr\u00E1ctica Profesionalizante\\Backend_Biodigestor\\Biodigestor\\Controllers\\ProvisionesController.cs",
-              "RelativeToolTip": "Biodigestor\\Controllers\\ProvisionesController.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAowAkAAAA3AAAA",
+              "Title": "CompraVentaController.cs",
+              "DocumentMoniker": "C:\\Users\\SecoC\\Desktop\\ProyectoBiodigestor.1\\Backend_Biodigestor\\Biodigestor\\Controllers\\CompraVentaController.cs",
+              "RelativeDocumentMoniker": "Biodigestor\\Controllers\\CompraVentaController.cs",
+              "ToolTip": "C:\\Users\\SecoC\\Desktop\\ProyectoBiodigestor.1\\Backend_Biodigestor\\Biodigestor\\Controllers\\CompraVentaController.cs",
+              "RelativeToolTip": "Biodigestor\\Controllers\\CompraVentaController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFwAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-01T21:34:04.858Z",
+              "WhenOpened": "2024-06-03T18:34:39.502Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ProvisionesContext.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Escritorio\\Programacion\\TSDS - Dr. Houssay\\Segundo A\u00F1o\\Pr\u00E1ctica Profesionalizante\\Backend_Biodigestor\\Biodigestor\\Models\\ProvisionesContext.cs",
-              "RelativeDocumentMoniker": "Biodigestor\\Models\\ProvisionesContext.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Escritorio\\Programacion\\TSDS - Dr. Houssay\\Segundo A\u00F1o\\Pr\u00E1ctica Profesionalizante\\Backend_Biodigestor\\Biodigestor\\Models\\ProvisionesContext.cs",
-              "RelativeToolTip": "Biodigestor\\Models\\ProvisionesContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAJAAAA",
+              "Title": "CompraVentaContext.cs",
+              "DocumentMoniker": "C:\\Users\\SecoC\\Desktop\\ProyectoBiodigestor.1\\Backend_Biodigestor\\Biodigestor\\Models\\CompraVentaContext.cs",
+              "RelativeDocumentMoniker": "Biodigestor\\Models\\CompraVentaContext.cs",
+              "ToolTip": "C:\\Users\\SecoC\\Desktop\\ProyectoBiodigestor.1\\Backend_Biodigestor\\Biodigestor\\Models\\CompraVentaContext.cs",
+              "RelativeToolTip": "Biodigestor\\Models\\CompraVentaContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-01T21:24:16.979Z",
+              "WhenOpened": "2024-06-03T01:55:17.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CompraVenta.cs",
+              "DocumentMoniker": "C:\\Users\\SecoC\\Desktop\\ProyectoBiodigestor.1\\Backend_Biodigestor\\Biodigestor\\Models\\CompraVenta.cs",
+              "RelativeDocumentMoniker": "Biodigestor\\Models\\CompraVenta.cs",
+              "ToolTip": "C:\\Users\\SecoC\\Desktop\\ProyectoBiodigestor.1\\Backend_Biodigestor\\Biodigestor\\Models\\CompraVenta.cs",
+              "RelativeToolTip": "Biodigestor\\Models\\CompraVenta.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAcwBQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T01:54:35.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProvisionesController.cs",
+              "DocumentMoniker": "C:\\Users\\SecoC\\Desktop\\ProyectoBiodigestor.1\\Backend_Biodigestor\\Biodigestor\\Controllers\\ProvisionesController.cs",
+              "RelativeDocumentMoniker": "Biodigestor\\Controllers\\ProvisionesController.cs",
+              "ToolTip": "C:\\Users\\SecoC\\Desktop\\ProyectoBiodigestor.1\\Backend_Biodigestor\\Biodigestor\\Controllers\\ProvisionesController.cs",
+              "RelativeToolTip": "Biodigestor\\Controllers\\ProvisionesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T21:34:04.858Z",
               "EditorCaption": ""
             }
           ]

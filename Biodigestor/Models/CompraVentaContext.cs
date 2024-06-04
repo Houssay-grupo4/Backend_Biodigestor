@@ -9,7 +9,7 @@ namespace Biodigestor.Models
         }
 
         public DbSet<CompraVenta> CompraVenta { get; set; }
-        public DbSet<Cliente> Clientes { get; set; }  // Incluir la entidad Cliente
+        public DbSet<Cliente> Clientes { get; set; }  
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -17,7 +17,6 @@ namespace Biodigestor.Models
             modelBuilder.Entity<CompraVenta>().ToTable("CompraVenta");
             modelBuilder.Entity<CompraVenta>().HasIndex(CompraVenta => CompraVenta.IdCompraVenta).IsUnique();
 
-            // Configurar la entidad Cliente para usar la misma tabla
             modelBuilder.Entity<Cliente>().ToTable("Clientes");
         }
     }

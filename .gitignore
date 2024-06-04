@@ -1,12 +1,3 @@
 Biodigestor/obj/
 .vs
 Biodigestor/bin
-Biodigestor/obj/Biodigestor.csproj.nuget.dgspec.json
-Biodigestor/obj/Biodigestor.csproj.nuget.g.props
-Biodigestor/obj/project.assets.json
-Biodigestor/obj/project.nuget.cache
-Biodigestor/obj/Debug/net8.0/Biodigestor.AssemblyInfo.cs
-Biodigestor/obj/Debug/net8.0/Biodigestor.AssemblyInfoInputs.cache
-Biodigestor/obj/Debug/net8.0/Biodigestor.assets.cache
-Biodigestor/obj/Debug/net8.0/Biodigestor.csproj.AssemblyReference.cache
-Biodigestor/obj/Debug/net8.0/Biodigestor.GeneratedMSBuildEditorConfig.editorconfig

@@ -64,7 +64,6 @@ namespace Biodigestor.Controllers
 
             compraVentaExistente.FechaTransaccion = compraVenta.FechaTransaccion;
             compraVentaExistente.Precio = compraVenta.Precio;
-            compraVentaExistente.NombreCliente = compraVenta.NombreCliente;
             compraVentaExistente.IdCliente = compraVenta.IdCliente;
             compraVentaExistente.Cliente = compraVenta.Cliente;
 

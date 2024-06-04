@@ -17,10 +17,6 @@ namespace Biodigestor.Models
             modelBuilder.Entity<CompraVenta>().ToTable("CompraVenta");
             modelBuilder.Entity<CompraVenta>().HasIndex(CompraVenta => CompraVenta.IdCompraVenta).IsUnique();
 
-            modelBuilder.Entity<CompraVenta>()
-                .Property(p => p.Precio)
-                .HasColumnType("decimal(18,2)");
-
             // Configurar la entidad Cliente para usar la misma tabla
             modelBuilder.Entity<Cliente>().ToTable("Clientes");
         }

@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Biodigestor.Migrations.CompraVenta
 {
     [DbContext(typeof(CompraVentaContext))]
-    [Migration("20240603020648_CompraVentaMigracion")]
-    partial class CompraVentaMigracion
+    [Migration("20240604144821_ComprasVentasMigracion")]
+    partial class ComprasVentasMigracion
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -64,12 +64,8 @@ namespace Biodigestor.Migrations.CompraVenta
                     b.Property<int>("IdCliente")
                         .HasColumnType("int");
 
-                    b.Property<string>("NombreCliente")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<decimal>("Precio")
-                        .HasColumnType("decimal(18,2)");
+                        .HasColumnType("decimal(18, 2)");
 
                     b.HasKey("IdCompraVenta");
 

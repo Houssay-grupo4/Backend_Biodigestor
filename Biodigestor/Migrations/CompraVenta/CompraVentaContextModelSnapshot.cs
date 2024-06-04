@@ -61,12 +61,8 @@ namespace Biodigestor.Migrations.CompraVenta
                     b.Property<int>("IdCliente")
                         .HasColumnType("int");
 
-                    b.Property<string>("NombreCliente")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<decimal>("Precio")
-                        .HasColumnType("decimal(18,2)");
+                        .HasColumnType("decimal(18, 2)");
 
                     b.HasKey("IdCompraVenta");
 

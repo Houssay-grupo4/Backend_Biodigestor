@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace Biodigestor.Migrations.CompraVenta
 {
     /// <inheritdoc />
-    public partial class CompraVentaMigracion : Migration
+    public partial class ComprasVentasMigracion : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -19,7 +19,6 @@ namespace Biodigestor.Migrations.CompraVenta
                         .Annotation("SqlServer:Identity", "1, 1"),
                     FechaTransaccion = table.Column<DateTime>(type: "datetime2", nullable: false),
                     Precio = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
-                    NombreCliente = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     IdCliente = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>

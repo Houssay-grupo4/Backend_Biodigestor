@@ -11,8 +11,10 @@ namespace Biodigestor.Models
 
         [DataType(DataType.Date)]
         public DateTime FechaTransaccion { get; set; }
+
+        [Column(TypeName = "decimal(18, 2)")]
+        [DisplayFormat(DataFormatString = "{0 : C2}")]
         public decimal Precio { get; set; }
-        public string NombreCliente { get; set; } = null!;
         public int IdCliente { get; set; }
 
         [ForeignKey("IdCliente")]

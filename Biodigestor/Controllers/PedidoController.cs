@@ -54,7 +54,7 @@ namespace Biodigestor.Controllers
             var pedidoExistente = await _context.Pedidos.FindAsync(id);
 
             pedidoExistente!.IdPedido = pedido.IdPedido;
-            pedidoExistente!.cantidadGas = pedido.cantidadGas;
+            pedidoExistente!.CantidadGas = pedido.CantidadGas;
             pedidoExistente!.Cliente = pedidoExistente.Cliente;
             pedidoExistente.IdCliente = pedidoExistente.IdCliente;
             pedidoExistente.DatefechaPedido = pedidoExistente.DatefechaPedido;

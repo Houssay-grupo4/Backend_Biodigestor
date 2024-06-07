@@ -10,7 +10,7 @@ namespace Biodigestor.Models
 
         public int IdPedido { get; set; }
 
-        public float cantidadGas {  get; set; }
+        public float CantidadGas {  get; set; }
 
         [DataType(DataType.Date)]
         public DateTime DatefechaPedido { get; set; }

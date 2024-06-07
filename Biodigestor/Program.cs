@@ -13,17 +13,17 @@ builder.Services.AddDbContext<ClientesContext>(o =>
     o.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
 
+builder.Services.AddDbContext<PedidoContext>(o =>
+{
+    o.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
+});
+
 builder.Services.AddDbContext<ProvisionesContext>(o =>
 {
     o.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
 
-builder.Services.AddDbContext<CompraVentaContext>(o =>
-{
-    o.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
-});
-
-builder.Services.AddDbContext<PedidoContext>(o =>
+builder.Services.AddDbContext<BiodigestorContext>(o =>
 {
     o.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });

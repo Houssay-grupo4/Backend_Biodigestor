@@ -4,6 +4,7 @@ using Biodigestor.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Biodigestor.Migrations.Pedido
 {
     [DbContext(typeof(PedidoContext))]
-    partial class PedidoContextModelSnapshot : ModelSnapshot
+    [Migration("20240607194844_PedidoMigracion")]
+    partial class PedidoMigracion
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -63,7 +66,6 @@ namespace Biodigestor.Migrations.Pedido
 
                     b.Property<int>("IdCliente")
                         .HasColumnType("int");
-
 
                     b.HasKey("IdPedido");
 

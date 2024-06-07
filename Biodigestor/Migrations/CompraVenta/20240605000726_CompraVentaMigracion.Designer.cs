@@ -4,16 +4,19 @@ using Biodigestor.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
 
-namespace Biodigestor.Migrations.Pedido
+namespace Biodigestor.Migrations.CompraVenta
 {
-    [DbContext(typeof(PedidoContext))]
-    partial class PedidoContextModelSnapshot : ModelSnapshot
+    [DbContext(typeof(CompraVentaContext))]
+    [Migration("20240605000726_CompraVentaMigracion")]
+    partial class CompraVentaMigracion
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -46,36 +49,35 @@ namespace Biodigestor.Migrations.Pedido
                     b.ToTable("Clientes", (string)null);
                 });
 
-            modelBuilder.Entity("Biodigestor.Models.Pedido", b =>
+            modelBuilder.Entity("Biodigestor.Models.CompraVenta", b =>
                 {
-                    b.Property<int>("IdPedido")
+                    b.Property<int>("IdCompraVenta")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
-                        .HasColumnName("IdPedido");
+                        .HasColumnName("IdCompraVenta");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdPedido"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdCompraVenta"));
 
-                    b.Property<float>("CantidadGas")
-                        .HasColumnType("real");
-
-                    b.Property<DateTime>("DatefechaPedido")
+                    b.Property<DateTime>("FechaTransaccion")
                         .HasColumnType("datetime2");
 
                     b.Property<int>("IdCliente")
                         .HasColumnType("int");
 
+                    b.Property<decimal>("Precio")
+                        .HasColumnType("decimal(18, 2)");
 
-                    b.HasKey("IdPedido");
+                    b.HasKey("IdCompraVenta");
 
                     b.HasIndex("IdCliente");
 
-                    b.HasIndex("IdPedido")
+                    b.HasIndex("IdCompraVenta")
                         .IsUnique();
 
-                    b.ToTable("Pedidos", (string)null);
+                    b.ToTable("CompraVenta", (string)null);
                 });
 
-            modelBuilder.Entity("Biodigestor.Models.Pedido", b =>
+            modelBuilder.Entity("Biodigestor.Models.CompraVenta", b =>
                 {
                     b.HasOne("Biodigestor.Models.Cliente", "Cliente")
                         .WithMany()

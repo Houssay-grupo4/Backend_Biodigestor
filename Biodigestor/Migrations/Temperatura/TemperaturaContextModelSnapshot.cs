@@ -44,7 +44,7 @@ namespace Biodigestor.Migrations.Temperatura
 
                     b.HasKey("IdBiodiestor");
 
-                    b.ToTable("Biodigestor", (string)null);
+                    b.ToTable("Biodigestores", (string)null);
                 });
 
             modelBuilder.Entity("Biodigestor.Models.Temperatura", b =>

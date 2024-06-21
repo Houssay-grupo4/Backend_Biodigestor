@@ -16,7 +16,7 @@ namespace Biodigestor.Models
         {
             base.OnModelCreating(modelBuilder);
             modelBuilder.Entity<BiodigestorClass>().ToTable("Biodigestores");  // Es para configurar que se use la misma tabla
-            modelBuilder.Entity<BiodigestorClass>().HasIndex(biodigestor => biodigestor.IdBiodiestor).IsUnique();
+            modelBuilder.Entity<BiodigestorClass>().HasIndex(biodigestor => biodigestor.IdBiodigestor).IsUnique();
         }
 
     }

@@ -8,7 +8,7 @@ namespace Biodigestor.Models
     {
         [Key]
         [Column("IdBiodigestor")]
-        public int IdBiodiestor { get; set; }
+        public int IdBiodigestor { get; set; }
         public string NombreBiodigestor { get; set; } = null!;
         public string ModeloBiodigestor { get; set; } = null!;
         public int VolumenGas { get; set; }

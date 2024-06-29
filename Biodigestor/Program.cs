@@ -33,16 +33,27 @@ builder.Services.AddDbContext<ProvisionesContext>(o =>
     o.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
 
-builder.Services.AddDbContext<BiodigestorContext>(o =>
-{
-    o.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
-});
-
 builder.Services.AddDbContext<CompraVentaContext>(o =>
 {
     o.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
 
+builder.Services.AddDbContext<BiodigestorContext>(o =>
+{
+    o.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
+});
+
+<<<<<<< HEAD
+builder.Services.AddDbContext<OutputGasContext>(o =>
+=======
+builder.Services.AddDbContext<CompraVentaContext>(o =>
+>>>>>>> origin
+{
+    o.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
+});
+
+<<<<<<< HEAD
+=======
 builder.Services.AddDbContext<AlertasContext>(o =>
 {
     o.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
@@ -55,6 +66,7 @@ builder.Services.AddDbContext<MantenimientoContext>(o =>
 });
 
 
+>>>>>>> origin
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();

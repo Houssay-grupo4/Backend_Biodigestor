@@ -43,17 +43,20 @@ builder.Services.AddDbContext<BiodigestorContext>(o =>
     o.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
 
-<<<<<<< HEAD
+
 builder.Services.AddDbContext<OutputGasContext>(o =>
-=======
+  {
+    o.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
+});                                              
+
 builder.Services.AddDbContext<CompraVentaContext>(o =>
->>>>>>> origin
+
 {
     o.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
 
-<<<<<<< HEAD
-=======
+
+
 builder.Services.AddDbContext<AlertasContext>(o =>
 {
     o.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));

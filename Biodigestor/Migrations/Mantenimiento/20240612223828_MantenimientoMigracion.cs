@@ -3,29 +3,31 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace Biodigestor.Migrations.Temperatura
+namespace Biodigestor.Migrations.Mantenimiento
 {
     /// <inheritdoc />
-    public partial class TemperaturaMigracion : Migration
+    public partial class MantenimientoMigracion : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
+          
+
             migrationBuilder.CreateTable(
-                name: "Temperatura",
+                name: "Mantenimientos",
                 columns: table => new
                 {
-                    IdTemperatura = table.Column<int>(type: "int", nullable: false)
+                    IdMantenimiento = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    nivelTemperatura = table.Column<float>(type: "real", nullable: false),
-                    fechaTemperatura = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    DatefechaMantenimiento = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    Observaciones = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     IdBiodigestor = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Temperatura", x => x.IdTemperatura);
+                    table.PrimaryKey("PK_Mantenimientos", x => x.IdMantenimiento);
                     table.ForeignKey(
-                        name: "FK_Temperatura_Biodigestor_IdBiodigestor",
+                        name: "FK_Mantenimientos_Biodigestores_IdBiodigestor",
                         column: x => x.IdBiodigestor,
                         principalTable: "Biodigestores",
                         principalColumn: "IdBiodigestor",
@@ -33,14 +35,14 @@ namespace Biodigestor.Migrations.Temperatura
                 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_Temperatura_IdBiodigestor",
-                table: "Temperatura",
+                name: "IX_Mantenimientos_IdBiodigestor",
+                table: "Mantenimientos",
                 column: "IdBiodigestor");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Temperatura_IdTemperatura",
-                table: "Temperatura",
-                column: "IdTemperatura",
+                name: "IX_Mantenimientos_IdMantenimiento",
+                table: "Mantenimientos",
+                column: "IdMantenimiento",
                 unique: true);
         }
 
@@ -48,7 +50,9 @@ namespace Biodigestor.Migrations.Temperatura
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "Temperatura");
+                name: "Mantenimientos");
+
+            
         }
     }
 }

@@ -9,7 +9,7 @@ namespace Biodigestor.Models
         }
 
         public DbSet<Temperatura> Temperatura { get; set; }
-        public DbSet<BiodigestorClass> Biodigestor { get; set; }  // Incluir la entidad Cliente
+        public DbSet<BiodigestorClass> Biodigestores { get; set; }  // Incluir la entidad Cliente
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -18,7 +18,7 @@ namespace Biodigestor.Models
             modelBuilder.Entity<Temperatura>().HasIndex(temperatura => temperatura.IdTemperatura).IsUnique();
 
             // Configurar la entidad Cliente para usar la misma tabla
-            modelBuilder.Entity<BiodigestorClass>().ToTable("Biodigestor");
+            modelBuilder.Entity<BiodigestorClass>().ToTable("Biodigestores");
         }
     }
 }

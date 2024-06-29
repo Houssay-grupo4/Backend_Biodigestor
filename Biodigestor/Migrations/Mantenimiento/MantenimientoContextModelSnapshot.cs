@@ -8,10 +8,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
 
-namespace Biodigestor.Migrations.Temperatura
+namespace Biodigestor.Migrations.Mantenimiento
 {
-    [DbContext(typeof(TemperaturaContext))]
-    partial class TemperaturaContextModelSnapshot : ModelSnapshot
+    [DbContext(typeof(MantenimientoContext))]
+    partial class MantenimientoContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
         {
@@ -44,38 +44,41 @@ namespace Biodigestor.Migrations.Temperatura
 
                     b.HasKey("IdBiodiestor");
 
-                    b.ToTable("Biodigestores", (string)null);
+                    b.ToTable("Biodigestor", (string)null);
                 });
 
-            modelBuilder.Entity("Biodigestor.Models.Temperatura", b =>
+            modelBuilder.Entity("Biodigestor.Models.Mantenimiento", b =>
                 {
-                    b.Property<int>("IdTemperatura")
+                    b.Property<int>("IdMantenimiento")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
-                        .HasColumnName("IdTemperatura");
+                        .HasColumnName("IdMantenimiento");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdTemperatura"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdMantenimiento"));
+
+                   
+
+                    b.Property<DateTime>("DatefechaMantenimiento")
+                        .HasColumnType("datetime2")
+                        .HasConversion(v => v, v => (DateTime)v);
 
                     b.Property<int>("IdBiodigestor")
                         .HasColumnType("int");
 
-                    b.Property<DateTime>("fechaTemperatura")
-                        .HasColumnType("datetime2");
+                    b.Property<string>("Observaciones")
+                        .HasColumnType("nvarchar(max)");
 
-                    b.Property<float>("nivelTemperatura")
-                        .HasColumnType("real");
-
-                    b.HasKey("IdTemperatura");
+                    b.HasKey("IdMantenimiento");
 
                     b.HasIndex("IdBiodigestor");
 
-                    b.HasIndex("IdTemperatura")
+                    b.HasIndex("IdMantenimiento")
                         .IsUnique();
 
-                    b.ToTable("Temperatura", (string)null);
+                    b.ToTable("Mantenimientos", (string)null);
                 });
 
-            modelBuilder.Entity("Biodigestor.Models.Temperatura", b =>
+            modelBuilder.Entity("Biodigestor.Models.Mantenimiento", b =>
                 {
                     b.HasOne("Biodigestor.Models.BiodigestorClass", "Biodigestor")
                         .WithMany()

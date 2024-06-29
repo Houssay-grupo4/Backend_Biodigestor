@@ -16,16 +16,6 @@ namespace Biodigestor.Controllers
             _context = context;
         }
 
-        [HttpPost]
-        [Route("crear")]
-        public async Task<IActionResult> CrearTemperatura(Temperatura temperatura)
-        {
-            await _context.Temperatura.AddAsync(temperatura);
-            await _context.SaveChangesAsync();
-
-            return Ok();
-        }
-
         [HttpGet]
         [Route("lista")]
         public async Task<ActionResult<IEnumerable<Temperatura>>> ListaTemperaturas()
@@ -51,34 +41,6 @@ namespace Biodigestor.Controllers
             return Ok(temperatura);
         }
 
-        [HttpPut]
-        [Route("editar")]
-        public async Task<IActionResult> ActualizarTemperatura(int id, Temperatura temperatura)
-        {
-            var temperaturaExistente = await _context.Temperatura.FindAsync(id);
-
-            temperaturaExistente!.fechaTemperatura = temperatura.fechaTemperatura;
-            temperaturaExistente!.nivelTemperatura = temperatura.nivelTemperatura;
-            temperaturaExistente!.IdBiodigestor = temperatura.IdBiodigestor;
-            temperaturaExistente!.Biodigestor = temperatura.Biodigestor;
-
-            await _context.SaveChangesAsync();
-
-            return Ok();
-        }
-
-        [HttpDelete]
-        [Route("eliminar")]
-        public async Task<IActionResult> EliminarTemperatura(int id)
-        {
-            var temperaturaBorrar = await _context.Temperatura.FindAsync(id);
-
-            _context.Temperatura.Remove(temperaturaBorrar!);
-
-            await _context.SaveChangesAsync();
-
-            return Ok();
-        }
     }
 }
 

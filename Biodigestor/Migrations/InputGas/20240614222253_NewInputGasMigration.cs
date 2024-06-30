@@ -12,21 +12,6 @@ namespace Biodigestor.Migrations.InputGas
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "Biodigestores",
-                columns: table => new
-                {
-                    IdBiodigestor = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    NombreBiodigestor = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    ModeloBiodigestor = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    VolumenGas = table.Column<int>(type: "int", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Biodigestores", x => x.IdBiodigestor);
-                });
-
-            migrationBuilder.CreateTable(
                 name: "InputGases",
                 columns: table => new
                 {
@@ -64,9 +49,6 @@ namespace Biodigestor.Migrations.InputGas
         {
             migrationBuilder.DropTable(
                 name: "InputGases");
-
-            migrationBuilder.DropTable(
-                name: "Biodigestores");
         }
     }
 }

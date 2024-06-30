@@ -53,7 +53,7 @@ namespace Biodigestor.Controllers
 
         [HttpPut]
         [Route("editar")]
-        public async Task<IActionResult> ActualizarBiodigestor(int id,BiodigestorClass biodigestor)
+        public async Task<IActionResult> ActualizarBiodigestor(int id, BiodigestorClass biodigestor)
         {
             var biodigestorExistente = await _context.Biodigestores.FindAsync(id);
 
